@@ -1,0 +1,51 @@
+<!doctypehtml>
+<html>
+<head>
+<Title> Coastguard Form </title>
+</head>
+<body style="background-color:pink">
+
+<img id="myImage" src="dornier.png" style="width:100%">
+<h1 style="text-align:center"> <u> <b> We Protect </u> </b> </h1>
+<h3> Click on button to change images </h3>
+<button onclick="document.getElementById('myImage').src='4.jpg'";> Flying Over Sea </button>
+<button onclick="document.getElementById('myImage').src='8.jpg'";> Fire Fighting </button>
+<br>
+<h1 style="text-align:center"> <img src="loginlogo.png" alt="Image" width="300" height="300"> </h1>
+<h2 style="text-align:center"> Registration form </h2> <hr>
+<form>
+     <label for="fname" > Name: </label>
+     <input type="text" id="fname" name="fname"> <br>
+
+     Rank:
+     <input type="radio" id="rank" name="rank" value="Nvk">
+     <label for="rank"> Nvk </label>
+     <input type="radio" id="rank" name="rank" value="U/Nvk">
+     <label for="rank"> U/Nvk </label>
+     <input type="radio" id="rank" name="rank" value="P/Nvk">
+     <label for="rank"> P/Nvk </label> <br>
+	Gender:
+     <input type="radio" id="gen" name="gen" value="Male">
+     <label for="gen"> Male </label>
+     <input type="radio" id="gen" name="gen" value="Female>
+     <label for="gen"> Female </label><br>
+     <label for="Courses"> Course Qualified </label>
+     <select name="Courses" id="Courses">
+     <option value="Navyeo"> Navyeo </option>
+     <option value="PCC"> PCC </option>
+     <option value="IT Course"> IT Course </option>
+     </select> <br>
+     <label for="date"> Birth Date </label>
+     <input type="date" id="date" name="date" value="confirm date"> <br>
+     <label for="phone"> Contact Number:</label>
+     <input type="tel" id="phone" name="phone" maxlength="10"> <br>
+     <label for="P No."> P No. </label>
+     <input type="text" id="P No." name="P No."> <br>
+     <input type="Submit" value="Submit">
+     <input type="Reset" value="Reset">
+    
+</form>
+</body>
+</html>
+     
+     
